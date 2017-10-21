@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">My EASY SERVICE</string>
-    <string name="name">เมลโล่ โซลูชั่นส์</string>
+    <string name="name">Process Creation</string>
+    <string name="name2">SUCCESS</string>
 </resources>

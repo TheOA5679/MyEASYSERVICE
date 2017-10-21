@@ -20,7 +20,7 @@
     <!--this is logo view-->
     <ImageView
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/mellowso"
+        android:src="@drawable/logo2"
         android:layout_margin="@dimen/margin"
         android:layout_width="@dimen/icon2"
         android:layout_height="@dimen/icon2" />
