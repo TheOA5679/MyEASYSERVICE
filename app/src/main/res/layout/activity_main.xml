@@ -8,6 +8,12 @@
     android:layout_height="match_parent"
     tools:context="app.mellowso.thakorn.myeasyservice.MainActivity">
 
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 
     <!--CONTENT-->
     <LinearLayout
@@ -16,6 +22,13 @@
         android:layout_height="match_parent">
 
         <!--toolbar-->
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarmain1"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
 
 
 
@@ -29,10 +42,12 @@
 
     </LinearLayout>
 
+
+
     <!--Drawer MENU-->
     <LinearLayout
         android:padding="@dimen/margin"
-        android:layout_gravity="end"
+        android:layout_gravity="start"
         android:background="#e1f5fe"
         android:orientation="vertical"
         android:layout_width="320dp"

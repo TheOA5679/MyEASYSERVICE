@@ -17,6 +17,7 @@
 
     <!--IMAGE-->
     <ImageView
+        android:id="@+id/imvMellow"
         android:src="@drawable/mellowso"
         android:layout_width="@dimen/icon2"
         android:layout_height="@dimen/icon2"
