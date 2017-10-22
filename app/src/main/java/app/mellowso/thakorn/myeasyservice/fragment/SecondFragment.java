@@ -36,7 +36,7 @@ public class SecondFragment extends Fragment{
                 getActivity().getSupportFragmentManager().popBackStack();
             }
         });
-        
+
     }
 //
 
