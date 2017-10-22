@@ -16,8 +16,19 @@
         android:layout_height="wrap_content" />
 
     <!--IMAGE-->
-
+    <ImageView
+        android:src="@drawable/mellowso"
+        android:layout_width="@dimen/icon2"
+        android:layout_height="@dimen/icon2"
+        />
 
     <!--BACK BUTTON-->
+    <Button
+        android:textColor="#ef6c00"
+        android:background="@color/colorPrimary"
+        android:text="BACKWARD"
+        android:layout_width="@dimen/icon2"
+        android:layout_height="wrap_content"
 
+        />
 </LinearLayout>
